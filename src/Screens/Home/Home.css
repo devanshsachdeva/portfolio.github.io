@@ -63,16 +63,6 @@
 		"Liberation Mono", "Courier New", monospace;
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-.ntc{
-	color: #fc557e;
-}
-
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
@@ -253,11 +243,6 @@ img {
 	vertical-align: middle;
 	border-style: none;
 }
-
-svg {
-	overflow: hidden;
-}
-
 table {
 	border-collapse: collapse;
 }

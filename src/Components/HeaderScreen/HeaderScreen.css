@@ -1,0 +1,35 @@
+.hs-heading {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: 46px;
+    font-weight: 900;
+    white-space: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.hs-heading::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #380036;
+}
+
+.hs-heading::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 300px;
+    height: 1px;
+    margin-right: 20px;
+    background-color: #380036;
+}

@@ -2,10 +2,12 @@ import React from 'react';
 import './About.css';
 import Contributions from '../../Components/Contributions/Contributions';
 import GithubCal from '../../Components/GithubCal/GithubCal';
+import HeaderScreen from '../../Components/HeaderScreen/HeaderScreen'
 
 export default function About() {
     return (
         <div className='abt-container'>
+            <HeaderScreen title='About Me' />
             <div className='title'>
                 Github Calendar Heatmap
             </div>

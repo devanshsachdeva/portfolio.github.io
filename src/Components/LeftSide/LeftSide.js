@@ -18,7 +18,7 @@ const LeftSide = () => {
                     <img src="/Assets/icons/github.svg" alt="Github" class="w-6 md:w-8 mb-2 md:my-2 transition-all hover:opacity-40 transform hover:scale-75" />
                 </a>
                 <a href="https://www.instagram.com/thedevanshsachdeva/">
-                    <img src="/Assets/icons/instagram.svg" alt="Instagram" class="w-6 md:w-8 mb-2 md:my-2 transition-all hover:opacity-40 transform hover:scale-75" />
+                    <img src="/Assets/icons/instagram.svg" alt="Instagram" class="w-6 md:w-8 mb-2 md:my-2 transition-all hover:opacity-40 transform hover:scale-75" style={{ color: 'red' }} />
                 </a>
                 <div class="h-20 md:h-32 mt-2 w-1/12 bg-violet">
                 </div>
