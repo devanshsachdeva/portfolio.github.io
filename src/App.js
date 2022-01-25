@@ -1,3 +1,4 @@
+import Contributions from "./Components/Contributions/Contributions";
 import About from "./Screens/About/About";
 import Home from "./Screens/Home/Home";
 

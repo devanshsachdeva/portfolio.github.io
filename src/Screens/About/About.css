@@ -1,0 +1,18 @@
+.contributions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.title{
+    color: #380036;
+    font-size:70px ;
+    font-weight: 900;
+    text-decoration: #E8EAED underline;
+
+}
+
+.abt-container{
+    text-align: center;
+}
