@@ -35,19 +35,31 @@ const NameCard = () => {
                 "];
             </pre>
             <pre>
-                5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age =
+                4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                this.learning = ["
+                <b>
+                    React Js
+                </b>
+                ", "
+                <b>
+                    Machine Learning
+                </b>
+                "];
+            </pre>
+            <pre>
+                6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age =
                 23
             </pre>
             <pre>
-                6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.alive =
+                7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.alive =
                 true
             </pre>
             <pre>
-                7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+                8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;
 
             </pre>
             <pre>
-                8&nbsp;&nbsp;&nbsp;&#125;
+                9&nbsp;&nbsp;&nbsp;&#125;
             </pre>
         </div>
     );
