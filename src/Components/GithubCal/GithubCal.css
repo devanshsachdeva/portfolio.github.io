@@ -2,12 +2,27 @@
 
 .github{
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
+    justify-content: center;
 }
 
->>> .svg{
-    width: 1544px !important;
-    height: 320px !important;
+@media screen and (max-width: 375px) {
+    .github{
+    margin-left: 50px;
+}
+}
+@media screen and (max-width: 810px) {
+    .github{
+    margin-left: 50px;
+}
+}
+@media screen and (max-width: 910px) {
+    .github{
+    margin-left: 50px;
+}
+}
+@media screen and (max-width: 1110px) {
+    .github{
+    margin-left: 100px;
+}
 }
