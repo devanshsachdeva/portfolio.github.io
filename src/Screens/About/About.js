@@ -15,9 +15,7 @@ export default function About() {
                             <span className='priamry-text'>
                                 {" "}
                                 Hello, I'm <span className='highlighted-text'> Devansh Sachdeva </span>
-
                             </span>
-
                         </div>
                         <div className='profile-details-role'>
                             <span className='priamry-text'>
@@ -28,7 +26,6 @@ export default function About() {
                                 </h6>
                                 <span className='profile-role-tagline'>
                                     I've been close to a computer since an early age, and been passionate about it ever since.
-
                                     I really liked to build stuff using no-code tools
                                     back in 2013, and from that, I explored how to code myself, fast-forward to today, I do programming in various languages and technologies, and had the privilege to worked in a B2B Company
                                     and a Reputed MNC - Infosys for various Big Clients and Banks based in US, namely Morgan Stanley, The Capital Group  and So on.
@@ -38,21 +35,18 @@ export default function About() {
                                     <br />
                                     When I'm not coding I induldge myself in gaming, both outdoors and indoors, or maybe watch some shows on Netflix, or if the weather's good, go for a walk or drive either..
                                 </span>
-
                             </span>
-
                         </div>
                     </div>
-
                     <div className='profile-picture'>
                         <div className='profile-picture-background'>
-
                         </div>
-
                     </div>
-
                 </div>
+            </div>
 
+            <div>
+                Skills
             </div>
 
         </div>
