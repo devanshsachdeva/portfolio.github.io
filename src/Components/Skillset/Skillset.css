@@ -1,0 +1,21 @@
+.item{
+   width: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+    overflow: hidden;
+}
+
+.item span{
+    display: none;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.item:hover span{
+    display: flex;
+}
