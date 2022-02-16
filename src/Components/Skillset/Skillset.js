@@ -4,7 +4,7 @@ import './Skillset.css'
 const Skillset = (props) => {
     return (
         <div className='item'>
-            <img src='../../assets/skills/angular.svg' alt='Angular' />
+            <img src={props.source} alt={props.Name} />
             <span>
                 {props.Name}
             </span>

@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <Home />
       <About />
-      <Skillset Name='Angular JS' />
+      <Skillset Name='Angular JS' source='../../assets/skills/angular.svg' />
+      <Skillset Name='HTML 5' source='../../assets/skills/html.svg' />
     </div>
   );
 }
