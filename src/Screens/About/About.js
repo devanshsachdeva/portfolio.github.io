@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import GithubCal from '../../Components/GithubCal/GithubCal';
 import HeaderScreen from '../../Components/HeaderScreen/HeaderScreen'
+import GitHubCalendar from 'react-github-calendar';
 
 export default function About() {
     return (
@@ -45,8 +46,19 @@ export default function About() {
                 </div>
             </div>
 
-            <div>
+            <div className='style'>
                 Skills
+                <GitHubCalendar username='devanshsachdeva' />
+            </div>
+
+            <div className='aboutmyskills'>
+                <div className='aboutmyskills-container'>
+
+                </div>
+                <div className='aboutmyskills-container'>
+
+                </div>
+
             </div>
 
         </div>
